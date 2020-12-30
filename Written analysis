@@ -1,0 +1,35 @@
+Colorado Polling Project- Python
+Project overview:
+  Seth and Tom needed the ballots counted for the election that occured in Colorado. These ballots were collected on a csv file that would have to be manually counted if not for the power of computing.  This computing was done using python hard code, which has been audited several times and confirmed to have no meddling from foreign agencies or the deep state.  I did this in my apartment, it was a clean election. I promise.  In this election, three candidates tallied votes from three seperate counties.  The results were processed in python and written to a text file.
+  
+Analysis:
+  The script of the code sifts through the respective rows using for loops to present Tom and Seth with the total votes from the election, the total votes per candidate, and the total votes per county.  Then, using if and then statements, the vote tallies were weighed against each other to compute which of the candidates received the highest vote tally.  Similarly, this process was done for the variables created for county votes to compute which county had the most votes.  The results were as follows: 
+
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+
+County Votes:
+Jefferson: 38855 (10.5%)
+)Denver: 306055 (82.8%)
+)Arapahoe: 24801 (6.7%)
+)-------------------------
+Biggest turnout: Denver
+Respective Count: 306,055
+Percentage of total votes: 82.8%
+-------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+Anecdote:
+  This code is useful for future elections, and can even be used on a broader scale.  It is certainly not limited to three candidates and three counties.  An empty dictionary was created for candidate names and county names.  These dictinaries were then assigned to a for loop that read through the respective column in the csv file that contained the abstracted election ballots. When the code came across a candidate name or county name that had nt previously been seen, it was added to the dictinary to be used for further computing.  This process means that this code is not limited in its scale.  Additionally, it can be further refined for different election rules, such as those that are in the state of Georgia.  In Georgia, if a senator does not have the explicit majority of votes, the election goes to a run off.  This code can be modified using conditional statements, like those used to determine the winning candidate and the largest county tally, to weigh the percentage of votes calculated per candidate against a defined variable of vote majority (50.1%).  T
+  
+  
+  
